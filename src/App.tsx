@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 
 function App() {
   return (
-    <div className="md:px-4 px-2 pb-24 lg:px-5 mx-auto">
+    <div className="mt-6 md:px-4 px-2 pb-24 lg:px-5 mx-auto">
       <Home />
     </div>
   );
