@@ -35,10 +35,10 @@ export const FormInput: React.FC<FormInputProps> = ({
   </div>
 );
 
-const Form: React.FC<FormProps> = ({ onSubmit, children, className = "" }) => {
-  return (
-    <form onSubmit={onSubmit} className={`mb-2 ${className}`}>
-      {children}
-    </form>
-  );
-};
+// const Form: React.FC<FormProps> = ({ onSubmit, children, className = "" }) => {
+//   return (
+//     <form onSubmit={onSubmit} className={`mb-2 ${className}`}>
+//       {children}
+//     </form>
+//   );
+// };
