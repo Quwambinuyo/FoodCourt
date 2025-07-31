@@ -1,4 +1,4 @@
-import { type FormInputProps, type FormProps } from "../types/types";
+import { type FormInputProps } from "../types/types";
 
 export const FormInput: React.FC<FormInputProps> = ({
   name,
